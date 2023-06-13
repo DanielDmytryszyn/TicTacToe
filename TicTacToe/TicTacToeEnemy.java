@@ -98,10 +98,7 @@ public class TicTacToeEnemy {
         // Check diagonals for a win
         if (buttons.get(0).getText().equals(Character.toString(symbol)) && buttons.get(4).getText().equals(Character.toString(symbol)) && buttons.get(8).getText().equals(Character.toString(symbol)))
             return true;
-        if (buttons.get(2).getText().equals(Character.toString(symbol)) && buttons.get(4).getText().equals(Character.toString(symbol)) && buttons.get(6).getText().equals(Character.toString(symbol)))
-            return true;
-
-        return false;
+        return buttons.get(2).getText().equals(Character.toString(symbol)) && buttons.get(4).getText().equals(Character.toString(symbol)) && buttons.get(6).getText().equals(Character.toString(symbol));
     }
 
     private boolean isBoardFull() {
