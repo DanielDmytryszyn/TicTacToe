@@ -35,8 +35,8 @@ public class TicTacToeLobby extends JFrame {
         setVisible(true);
     }
 
-    JButton human = new JButton();
-    JButton computer = new JButton();
+    private final JButton human = new JButton();
+    private final JButton computer = new JButton();
 
     /**
      * Initializes the "Human" button.

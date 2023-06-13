@@ -79,8 +79,8 @@ public class TicTacToe extends JFrame {
      */
     public void writeWinMessage(String symbol) {
         changeFontSizes(NORMAL_FONT_SIZE);
-        writeToAllButtons(symbol + " hat gewonnen, click to Reset".toUpperCase());
-        setTitle(symbol + " hat gewonnen".toUpperCase());
+        writeToAllButtons(symbol + " has won, click to Reset".toUpperCase());
+        setTitle(symbol + " has won".toUpperCase());
 
         if (Objects.equals(symbol, "X")) winCountX++;
         else winCountY++;
